@@ -1,0 +1,29 @@
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Python environment and caches
+backend/venv/
+__pycache__/
+*.py[cod]
+
+# Python virtual environments
+venv/
+.venv/
+
+# Local databases and logs
+*.db
+*.sqlite3
+*.log
+
+# Environment and editor files
+.env
+.env.*
+!.env.example
+.DS_Store
